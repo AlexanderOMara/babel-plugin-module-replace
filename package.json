@@ -1,0 +1,46 @@
+{
+	"name": "babel-plugin-module-replace",
+	"description": "A Babel plugin to replace module import and export paths",
+	"version": "0.0.0",
+	"keywords": [
+		"babel",
+		"esm",
+		"es6",
+		"modules",
+		"resolve",
+		"resolver",
+		"import",
+		"export"
+	],
+	"main": "lib/index",
+	"engines": {
+		"node": ">=6.9.0"
+	},
+	"scripts": {
+		"clean": "rimraf lib",
+		"lint": "eslint .",
+		"format": "prettier -w .",
+		"formatted": "prettier -c .",
+		"build": "babel src --out-dir lib --source-maps true",
+		"test": "node ./lib/index.spec.js",
+		"all": "npm run clean && npm run build && npm run test && npm run lint && npm run formatted",
+		"prepack": "npm run clean && npm run build"
+	},
+	"repository": "https://github.com/AlexanderOMara/babel-plugin-module-replace.git",
+	"bugs": "https://github.com/AlexanderOMara/babel-plugin-module-replace/issues",
+	"author": "Alexander O'Mara",
+	"copyright": "Copyright (c) 2024 Alexander O'Mara",
+	"license": "MPL-2.0",
+	"devDependencies": {
+		"@babel/cli": "^7.24.8",
+		"@babel/core": "^7.25.2",
+		"@babel/preset-env": "^7.25.3",
+		"@eslint/js": "^9.8.0",
+		"@stylistic/eslint-plugin": "^2.6.1",
+		"eslint": "^9.8.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-jsdoc": "^48.11.0",
+		"prettier": "^3.3.3",
+		"rimraf": "^6.0.1"
+	}
+}
