@@ -105,7 +105,7 @@ const spec = [
 	[
 		'../dir/tslib.MTSX',
 		{
-			replace: [[/^(\.\.?\/.+)\.(m|c)tsx?$/i, '$1.js']]
+			replace: [[/^(\.\.?\/.+)\.(m|c)?tsx?$/i, '$1.js']]
 		},
 		'../dir/tslib.js'
 	],

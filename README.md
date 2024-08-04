@@ -12,7 +12,7 @@ A Babel plugin for replacing import and export paths
 
 # Overview
 
-Replace ESM import and export paths by regex or function.
+Replace ESM import and export paths by regular expression or JavaScript function.
 
 Since it replaces the paths before the modules are transpiled, it can also be used to replace the paths for other transpiled module loaders.
 
@@ -48,7 +48,7 @@ export default {
 		[
 			'module-replace',
 			{
-				replace: [[/^(\.\.?\/.+)\.(m|c)tsx?$/i, '$1.js']]
+				replace: [[/^(\.\.?\/.+)\.(m|c)?tsx?$/i, '$1.js']]
 			}
 		]
 	]
