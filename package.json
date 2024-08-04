@@ -1,7 +1,7 @@
 {
 	"name": "babel-plugin-module-replace",
 	"description": "A Babel plugin to replace module import and export paths",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"keywords": [
 		"babel",
 		"esm",
