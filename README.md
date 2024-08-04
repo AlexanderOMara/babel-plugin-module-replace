@@ -8,7 +8,7 @@ A Babel plugin for replacing import and export paths
 [![size](https://packagephobia.now.sh/badge?p=babel-plugin-module-replace)](https://packagephobia.now.sh/result?p=babel-plugin-module-replace)
 [![downloads](https://img.shields.io/npm/dm/babel-plugin-module-replace.svg)](https://npmcharts.com/compare/babel-plugin-module-replace?minimal=true)
 
-[![Build Status](https://github.com/AlexanderOMara/babel-plugin-module-replace/workflows/main/badge.svg)](https://github.com/AlexanderOMara/babel-plugin-module-replace/actions?query=workflow%3Amain+branch%3Amain)
+[![main](https://github.com/AlexanderOMara/babel-plugin-module-replace/actions/workflows/main.yaml/badge.svg)](https://github.com/AlexanderOMara/babel-plugin-module-replace/actions/workflows/main.yaml)
 
 # Overview
 
